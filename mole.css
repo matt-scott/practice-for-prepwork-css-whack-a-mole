@@ -10,12 +10,14 @@
   height: 356px;
   position: absolute;
   width: 376px;
+  left: 109px;
 }
 
 .wgs__mole-hill {
   height: 220px;
   position: absolute;
   width: 640px;
+  bottom: 0px;
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
