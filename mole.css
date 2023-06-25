@@ -1,34 +1,39 @@
 /* Your code here */
 
+.pf {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
 
 .wgs {
-  height: 482px;
+  height: 241px;
   position: relative;
-  width: 640px;
-  display: inline-block;
+  width: 320px;
+  /*display: inline-block;*/
   overflow: hidden;
 }
 
 .wgs__mole-head {
-  height: 356px;
+  height: 178px;
   position: absolute;
-  width: 376px;
-  left: 109px;
+  width: 188px;
+  left: 55px;
 }
 
 .wgs__mole-head--hidden {
-  margin-top: 482px;
-  height: 356px;
+  margin-top: 241px;
+  height: 178px;
   position: absolute;
-  width: 376px;
-  left: 109px;
+  width: 188px;
+  left: 55px;
   transition: margin-top 0.25s;
 }
 
 .wgs__mole-hill {
-  height: 220px;
+  height: 110px;
   position: absolute;
-  width: 640px;
+  width: 320px;
   bottom: 0px;
 }
 
@@ -37,7 +42,7 @@
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -46,17 +51,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+}
 
-/* .sb__score-holder {
+.sb__score-holder {
   flex: 1 0 0;
-} */
+}
 
-/* .sb__game-over--hidden {
+.sb__game-over--hidden {
   display: none;
-} */
+}
